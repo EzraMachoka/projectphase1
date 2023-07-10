@@ -5,3 +5,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
    });
+
+
+
+   document.addEventListener('DOMContentLoaded', function(){
+
+    document.querySelectorAll('select').forEach(function(dropdown){
+        dropdown.onclick = function(){
+            document.querySelector('#hello')
+                
+            
+        }
+
+    })
+   })
+   
