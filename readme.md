@@ -16,14 +16,15 @@ This is a simple web app that displays  driver details such as  driver name, car
 
 ### Details Display
 - Users can see diver details for a given driver by clicking on the driver name on the list provided on the landing page.
+- The app fetches the image of the driver's car.
 
 ## Usage
 
 1. Download the repository to locally host it or even clone it.
 2. Ensure you have a local web server set up to serve the files.
-3. Place the db.json` file in the root directory.Don't forget to have Postman locally hosted.Download the web version. Run the http://localhost:3000/Constructor  command first to fetch the first driver details for the constructor whose detailsis supposed to be displayed.
-4. Open the web app in a web browser using the server's URL.
-5. The web app will display the home page by default that contains the app banner.
+3. Place the db.json` file in the root directory.Don't forget to have Postman locally hosted.Download the web version. Run the http://localhost:3000/Constructors  command first to fetch the first driver details for the constructor whose detailsis supposed to be displayed.
+4. Open the web app in a web browser using the server's URL,most preferrably Chrome.
+5. The web app will display the home page by default that contains the app banner .
 6. Click on  the  driver eg Lewis Hamilton and his stats will appear in the card at the center.
 
 
