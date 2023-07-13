@@ -188,3 +188,19 @@ footer{
     cursor: pointer;
 }
 
+#driverlist li:hover{
+    color: #f9004d;
+    cursor: pointer;
+}
+
+.detailss{
+    margin-left: 8%;
+    margin-top: 6%;
+
+
+}
+.photo img{
+    border-radius: 5% 5%;
+    margin: 3%;
+}
+
