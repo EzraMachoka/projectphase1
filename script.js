@@ -5,3 +5,18 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
  });
+
+
+ const hello = document.getElementById("hello");
+
+// Fetching the driver data
+fetch("http://localhost:3000/constructors")
+  .then((response) => {
+    return response.json();
+  })
+  .then((driver) 
+  
+  );
+  function driver(data){
+    data.map(driver => displayDrivers(driver))
+  }
