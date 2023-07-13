@@ -66,3 +66,29 @@ nav ul li a:hover{
     color: #f9004d;
     transition: .4s;
 }
+
+
+.content{
+    margin-left: 25%;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    
+}
+
+h1{
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+
+h3{
+    margin: 20px 0px 20px;
+    font-size: 20px;
+}
+
+h4{
+    margin: 20px 0px 20px;
+    font-size: 15px;
+}
+
