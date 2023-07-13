@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+#gari{
+    color: white;
+    display: flex;
+   
+}
+
+
+.display{
+    margin-left: 80px;
+}
+.profile{
+    font-size: small;
+    margin-left: 20px;
+
+}
