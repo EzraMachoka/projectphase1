@@ -38,11 +38,11 @@ fetch("http://localhost:3000/constructors")
     const gari  = document.getElementById("gari")
     console.log(driver);
     gari.innerHTML = ` <div class= "photo"><img src="${driver.Car_Photo}" alt="${driver.Car_Photo}" width = "250px" height = "200px"> </div>
-     <div class="detailss"><p><strong>The Team Principal is : </strong>${driver.Team_Principal}</p>
-     <p><strong>The Constructor is : </strong>${driver.Constructor}</p>
-     <p><strong>The Race Engineer is : </strong>${driver.Race_Engineer}</p> 
-     <p><strong>The Driver's favorite circuit is: </strong>${driver.Favorite_Circuit}</p>
-     <p><strong>The Car number is : </strong>${driver.Car_number}</p></div>`
+     <div class="detailss"><p><strong><span>The Team Principal is</span> : </strong>${driver.Team_Principal}</p>
+     <p><strong><span>The Constructor is</span> : </strong>${driver.Constructor}</p>
+     <p><strong><span>The Race Engineer is</span> : </strong>${driver.Race_Engineer}</p> 
+     <p><strong><span>The Driver's favorite circuit is</span>: </strong>${driver.Favorite_Circuit}</p>
+     <p><strong><span>The Car number is</span> : </strong>${driver.Car_number}</p></div>`
    
 gari.appendChild(gari)
    }
